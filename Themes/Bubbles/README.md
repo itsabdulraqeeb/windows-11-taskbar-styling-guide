@@ -31,7 +31,7 @@ The theme styles can also be imported manually. To do that, follow these steps:
 controlStyles:
   - target: Rectangle#BackgroundFill
     styles:
-      - Fill:=<SolidColorBrush x:Name="SystemChromeLow" Color="{ThemeResource SystemChromeLowColor}" />
+      - Fill: Transparent
   - target: Taskbar.TaskListLabeledButtonPanel@RunningIndicatorStates > Border#BackgroundElement
     styles:
       - CornerRadius=20
